@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="KodeEditText">
+        <attr name="lineSpace" format="dimension"/>
+        <attr name="lineStrokeWidth" format="dimension"/>
+        <attr name="focusedLineStrokeWidth" format="dimension"/>
+        <attr name="lineColor" format="color"/>
+        <attr name="focusedLineColor" format="color"/>
+        <attr name="currentEditingLineColor" format="color"/>
+        <attr name="android:maxLength"/>
+    </declare-styleable>
+</resources>
