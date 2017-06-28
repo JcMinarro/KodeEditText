@@ -61,7 +61,7 @@ class KodeEditText
         val bottom = height.toFloat() - paddingBottom
         val textWidths = FloatArray(text.length)
         paint.getTextWidths(text.toString(), textWidths)
-        for (i in 0..maxLenght) {
+        for (i in 0..maxLenght-1) {
             updateColorForLines(i == text.length)
             canvas.drawLine(startX, bottom, startX+charSize, bottom, linesPaint)
             text.elementAtOrNull(i)?.let {
