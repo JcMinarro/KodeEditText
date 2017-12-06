@@ -4,11 +4,12 @@ import android.content.Context
 import android.graphics.Canvas
 import android.graphics.Paint
 import android.support.v7.widget.AppCompatEditText
+import android.text.Selection.setSelection
 import android.util.AttributeSet
 import android.util.TypedValue
 import android.view.ActionMode
 
-class KodeEditText
+open class KodeEditText
 @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = android.support.v7.appcompat.R.attr.editTextStyle) :
         AppCompatEditText(context, attrs, defStyleAttr) {
     private val lineStrokeWidth: Float
